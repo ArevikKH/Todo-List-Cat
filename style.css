@@ -1,0 +1,219 @@
+#aneliqneri-list {
+  list-style-type: none;
+  width: 240px;
+  word-wrap: break-word;
+}
+.gorcer {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body {
+  width: 500px;
+  height: 200px;
+  background-color: #b2f1fd;
+  background-size: 300px;
+}
+#aneliqneri-list {
+  font-family: Florence, cursive;
+  color: #987a6e;
+}
+h2 {
+  -webkit-text-stroke: 1px #987a6e;
+  color: #fee0d0;
+  text-shadow: 3px 3px 0 #987a6e, -1px -1px 0 #987a6e, 1px -1px 0 #987a6e,
+    -1px 1px 0 #987a6e, 1px 1px 0 #987a6e;
+}
+#knopka {
+  transform: translateX(10px);
+}
+#knopka {
+  color: #987a6e;
+  background-color: #feeecc;
+  border-radius: 12px;
+  border: 2px solid #ffd0cf;
+  font-size: 20px;
+  padding: 6px 6px;
+  outline: none;
+  box-shadow: 0 5px #999;
+}
+input[type="text"] {
+  background-color: #ffd0cf;
+  color: #feeecc;
+  padding: 6px 10px;
+  border: 2px solid #fee0d0;
+  border-radius: 8px;
+  font-family: Florence, cursive;
+  outline: none;
+}
+input[type="text"]:focus {
+  border: 3px solid #ffbacc;
+}
+#knopka:focus {
+  border: 3px solid #ffbacc;
+}
+::placeholder {
+  color: #fee0d0;
+}
+#knopka:hover {
+  background-color: #fee0d0;
+}
+#knopka:active {
+  box-shadow: 0 3px #987a6e;
+  transform: translate(10px, 4px);
+}
+.checkaneliq {
+  text-decoration: line-through;
+}
+.jnjeluknopka {
+  background: #ffd0cf;
+  margin-left: 10px;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 0 2px #999;
+  color: #987a6e;
+  border: 1px solid #feeecc;
+  width: 16px;
+  height: 16px;
+  font-size: 11px;
+  padding: 0.5px 1.5px;
+}
+.jnjeluknopka:focus {
+  border: 1.5px solid #ffbacc;
+}
+::placeholder {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.jnjeluknopka:hover {
+  background-color: #ffbacc;
+}
+label:hover {
+  color: #ffbacc;
+}
+.jnjeluknopka:active {
+  box-shadow: 0 1px #987a6e;
+  transform: translateY(2px);
+}
+h2 {
+  transform: translateX(100px);
+}
+input[type="text"] {
+  transform: translateX(10px);
+}
+#foni-katu {
+  width: 500px;
+  height: auto;
+}
+#foni-katu {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#motivacion-text {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transform: translateX(20px);
+  font-family: Florence, cursive;
+  color: #987a6e;
+}
+.container {
+  position: relative;
+  padding-left: 20px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #d9f8fe;
+  border-radius: 50%;
+}
+.container:hover input ~ .checkmark {
+  background-color: #ffd0cf;
+}
+.container input:checked ~ .checkmark {
+  background-color: #ffbacc;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  left: 4px;
+  top: 1px;
+  width: 3px;
+  height: 7px;
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#polzunok {
+  overflow-y: scroll;
+  width: 365px;
+  height: 134px;
+  border-radius: 12px;
+  border: 4px solid #ffd0cf;
+}
+#polzunok::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+#polzunok::-webkit-scrollbar {
+  width: 10px;
+}
+#polzunok::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, #fee0d0),
+    color-stop(0.72, #ffd0cf),
+    color-stop(0.86, #ffbacc)
+  );
+}
+#polzunok::-webkit-scrollbar-corner {
+  background-color: #b2f1fd;
+}
